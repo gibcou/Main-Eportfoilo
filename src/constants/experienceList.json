@@ -1,0 +1,72 @@
+[
+  {
+    "company": "Frontend Simplified",
+    "role": "Frontend Developer",
+    "resps": [
+      "Selected as peer mentor after achieving top 5% performance in cohort, providing debugging support and code reviews for 20+ students across React and Next.js projects",
+      "Created and led workshops on modern frontend optimization techniques, helping students improve their portfolio project load times by an average of 40%",
+      "Developed comprehensive learning resources for React component architecture and TypeScript, resulting in 70% of mentored students achieving type-safe implementations",
+      "Initiated weekly pair programming sessions focused on accessibility and SEO best practices, leading to 90% of mentored students achieving WCAG compliance in their projects",
+      "Built and shared reusable component library using ShadCN/UI, reducing development time for student projects by 40% and improving code consistency",
+      "Led study groups on deployment strategies and CI/CD, resulting in 85% of students successfully implementing automated deployment pipelines for their portfolio projects"
+    ],
+    "date": "January 2024 - August 2024"
+  },
+  {
+    "company": "Skinistic AI",
+    "role": "Frontend Engineer",
+    "resps": [
+      "Architected real-time skin analysis platform using OpenAI Vision API and Next.js, achieving 98% detection accuracy across diverse skin conditions",
+      "Developed responsive UI with Tailwind CSS and GSAP animations, implementing dynamic skincare recommendation cards with 60% improved engagement",
+      "Optimized performance using Next.js Server Components and Lottie animations, achieving sub-2-second analysis time for skin condition detection",
+      "Built dynamic animation system using GSAP timeline for seamless user experience during skin analysis processing, increasing user retention by 40%",
+      "Designed modular component library using ShadCN/UI for skincare product displays, enabling rapid A/B testing of recommendation layouts",
+      "Implemented efficient image processing pipeline combining OpenAI Vision API with 4D Mini model for enhanced accuracy in skin tone and texture analysis"
+    ],
+    "date": "September 2024 - April 2025"
+  },
+  {
+    "company": "Personal Projects - Search API Platform",
+    "role": "Full Stack Developer",
+    "resps": [
+      "Built responsive movie search platform using React.js with integrated TMDb API, handling 1000+ concurrent search requests",
+      "Implemented advanced search functionality with real-time filtering, autocomplete suggestions, and debounced input optimization",
+      "Designed dynamic routing system using React Router for seamless navigation between search results and detailed movie pages",
+      "Created custom loading states and error handling components, improving user experience during API response delays",
+      "Optimized performance with lazy loading and image optimization, reducing initial page load time by 45%",
+      "Developed mobile-first responsive design using CSS Grid and Flexbox, ensuring compatibility across all device sizes",
+      "Integrated movie rating system and user favorites functionality with local storage persistence"
+    ],
+    "date": "April 2025 - June 2025"
+  },
+  {
+    "company": "Personal Projects - Subscription Marketplace", 
+    "role": "Full Stack Developer",
+    "resps": [
+      "Architected full-stack marketplace platform using React.js frontend and Node.js/Express backend with MongoDB database",
+      "Implemented subscription-based payment model using Stripe API, eliminating per-transaction fees for sellers",
+      "Built comprehensive user authentication system with JWT tokens, password encryption, and role-based access control",
+      "Designed seller dashboard with analytics, inventory management, and subscription status tracking features",
+      "Created secure payment processing pipeline with automated billing cycles and subscription renewal notifications",
+      "Developed buyer protection system with dispute resolution, secure messaging, and transaction history tracking",
+      "Implemented search and filtering system with category-based navigation and advanced product discovery features",
+      "Built responsive admin panel for platform management, user verification, and payment dispute resolution"
+    ],
+    "date": "June 2025 - August 2025"
+  },
+  {
+    "company": "Personal Projects - Ultraverse NFT Marketplace",
+    "role": "Blockchain Developer",
+    "resps": [
+      "Developed full-stack NFT marketplace using React.js, Web3.js, and Ethereum blockchain integration",
+      "Implemented smart contract functionality for NFT minting, trading, and royalty distribution using Solidity",
+      "Built secure wallet connectivity supporting MetaMask, WalletConnect, and Coinbase Wallet integration",
+      "Created dynamic pricing system with auction functionality, buy-now options, and automated bid management",
+      "Designed NFT collection browsing with advanced filtering by price, rarity, creator, and blockchain network",
+      "Implemented IPFS integration for decentralized metadata and image storage, ensuring permanent asset availability",
+      "Built real-time market analytics dashboard showing floor prices, volume trends, and collection statistics",
+      "Developed creator tools for NFT minting, collection management, and royalty configuration with gas optimization"
+    ],
+    "date": "August 2025 - September 2025"
+  }
+]

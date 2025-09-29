@@ -1,0 +1,91 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#0a0a0a"/>
+  
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#16213e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="nftGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45b7d1;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="400" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Main NFT Card -->
+  <rect x="50" y="100" width="300" height="200" rx="15" fill="url(#nftGradient)" opacity="0.8" filter="url(#glow)"/>
+  
+  <!-- NFT Image placeholder -->
+  <rect x="70" y="120" width="120" height="120" rx="10" fill="#2c2c54" opacity="0.9"/>
+  <circle cx="130" cy="180" r="30" fill="#ff6b6b" opacity="0.7"/>
+  <polygon points="110,160 150,160 130,200" fill="#4ecdc4" opacity="0.8"/>
+  
+  <!-- NFT Details -->
+  <rect x="210" y="130" width="120" height="8" rx="4" fill="#ffffff" opacity="0.9"/>
+  <rect x="210" y="150" width="80" height="6" rx="3" fill="#ffffff" opacity="0.6"/>
+  <rect x="210" y="170" width="100" height="6" rx="3" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Price tag -->
+  <rect x="210" y="200" width="60" height="25" rx="12" fill="#45b7d1" opacity="0.9"/>
+  <text x="240" y="216" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">ETH</text>
+  
+  <!-- Blockchain elements -->
+  <g transform="translate(80, 350)">
+    <!-- Block 1 -->
+    <rect x="0" y="0" width="60" height="40" rx="5" fill="#4ecdc4" opacity="0.8"/>
+    <rect x="5" y="5" width="50" height="6" rx="3" fill="#ffffff" opacity="0.7"/>
+    <rect x="5" y="15" width="35" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+    <rect x="5" y="25" width="40" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+    
+    <!-- Connection line -->
+    <line x1="60" y1="20" x2="80" y2="20" stroke="#45b7d1" stroke-width="3" opacity="0.8"/>
+    
+    <!-- Block 2 -->
+    <rect x="80" y="0" width="60" height="40" rx="5" fill="#ff6b6b" opacity="0.8"/>
+    <rect x="85" y="5" width="50" height="6" rx="3" fill="#ffffff" opacity="0.7"/>
+    <rect x="85" y="15" width="35" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+    <rect x="85" y="25" width="40" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+    
+    <!-- Connection line -->
+    <line x1="140" y1="20" x2="160" y2="20" stroke="#45b7d1" stroke-width="3" opacity="0.8"/>
+    
+    <!-- Block 3 -->
+    <rect x="160" y="0" width="60" height="40" rx="5" fill="#45b7d1" opacity="0.8"/>
+    <rect x="165" y="5" width="50" height="6" rx="3" fill="#ffffff" opacity="0.7"/>
+    <rect x="165" y="15" width="35" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+    <rect x="165" y="25" width="40" height="4" rx="2" fill="#ffffff" opacity="0.5"/>
+  </g>
+  
+  <!-- Floating particles -->
+  <circle cx="100" cy="80" r="3" fill="#4ecdc4" opacity="0.6">
+    <animate attributeName="cy" values="80;60;80" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="320" cy="120" r="2" fill="#ff6b6b" opacity="0.7">
+    <animate attributeName="cy" values="120;100;120" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="320" r="2.5" fill="#45b7d1" opacity="0.5">
+    <animate attributeName="cy" values="320;300;320" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Title -->
+  <text x="200" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">ULTRAVERSE</text>
+  <text x="200" y="70" text-anchor="middle" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="12" opacity="0.7">NFT Marketplace</text>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="480" width="400" height="20" fill="url(#nftGradient)" opacity="0.3"/>
+</svg>

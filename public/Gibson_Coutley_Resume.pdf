@@ -1,0 +1,145 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2500
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(Gibson Coutley) Tj
+0 -30 Td
+/F1 14 Tf
+(Software Engineer) Tj
+0 -20 Td
+(406-850-7505 | gibcoutley@gmail.com | Montana, USA) Tj
+
+0 -40 Td
+/F1 16 Tf
+(Professional Experience) Tj
+0 -25 Td
+/F1 12 Tf
+(Skinistic AI - Frontend Engineer) Tj
+200 0 Td
+(September 2024 - April 2025) Tj
+-200 -15 Td
+(• Architected real-time skin analysis platform using OpenAI Vision API and Next.js) Tj
+0 -12 Td
+(• Developed responsive UI with Tailwind CSS and GSAP animations) Tj
+0 -12 Td
+(• Optimized performance using Next.js Server Components and Lottie animations) Tj
+0 -12 Td
+(• Built dynamic animation system using GSAP timeline for seamless user experience) Tj
+0 -12 Td
+(• Designed modular component library using ShadCN/UI for skincare product displays) Tj
+
+0 -25 Td
+(Frontend Simplified - Frontend Developer) Tj
+200 0 Td
+(January 2024 - August 2024) Tj
+-200 -15 Td
+(• Selected as peer mentor after achieving top 5% performance in cohort) Tj
+0 -12 Td
+(• Created and led workshops on modern frontend optimization techniques) Tj
+0 -12 Td
+(• Initiated weekly pair programming sessions focused on accessibility and SEO) Tj
+0 -12 Td
+(• Built and shared reusable component library using ShadCN/UI) Tj
+
+0 -35 Td
+/F1 16 Tf
+(Projects) Tj
+0 -25 Td
+/F1 12 Tf
+(Search API Platform) Tj
+0 -15 Td
+(• Created a fully functional search platform for movies) Tj
+0 -12 Td
+(• Engineered & integrated a search api for movies/anime/etc with responsive design) Tj
+
+0 -20 Td
+(Subscription Based Marketplace) Tj
+0 -15 Td
+(• A subscription-based marketplace platform where sellers pay a simple monthly fee) Tj
+0 -12 Td
+(• This model provides sellers with predictable costs and greater profit retention) Tj
+
+0 -35 Td
+/F1 16 Tf
+(Technical Skills) Tj
+0 -25 Td
+/F1 12 Tf
+(Programming Languages: TypeScript, JavaScript, HTML, CSS) Tj
+0 -15 Td
+(Frameworks: React, Next.js, Tailwind CSS, Firebase, Supabase, NextUI, Redux) Tj
+0 -15 Td
+(Tools & Other platforms: React Query, React Hook Form, Zustand) Tj
+
+0 -35 Td
+/F1 16 Tf
+(Education) Tj
+0 -25 Td
+/F1 12 Tf
+(Full Stack Engineering Institute | Certificate) Tj
+200 0 Td
+(June 2023 - January 2024) Tj
+-200 -15 Td
+(Computer Science 3.9 GPA) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002826 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+2903
+%%EOF
