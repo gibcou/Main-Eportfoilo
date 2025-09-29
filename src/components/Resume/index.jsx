@@ -12,6 +12,7 @@ import ResumeCard from "../ResumeCard"
 
 // assets
 import ProfilePic from "../../assets/Images/7D443AA2-FCD7-4367-8093-F37928A6843E_1_201_a.jpeg";
+import ResumeFile from "../../assets/Gibson's Resume  (3).pdf";
 import Icon from "../Icon"
 import githubIcon from "../../assets/Icon/github.svg"
 import linkedinIcon from "../../assets/Icon/linkedin.svg"
@@ -75,7 +76,7 @@ export default function Resume() {
                 <a href="https://www.linkedin.com/in/gibson-coutley-42a870385/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="/Gibson_Coutley_Resume.pdf" target="_blank" rel="noreferrer">
+                <a href={ResumeFile} target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
