@@ -12,7 +12,7 @@ import ResumeCard from "../ResumeCard"
 
 // assets
 import ProfilePic from "../../assets/Images/7D443AA2-FCD7-4367-8093-F37928A6843E_1_201_a.jpeg";
-import ResumeFile from "../../assets/Gibson_Coutley_Resume.pdf";
+import ResumeFile from "../../assets/Gibson's Resume  (4).pdf";
 import Icon from "../Icon"
 import githubIcon from "../../assets/Icon/github.svg"
 import linkedinIcon from "../../assets/Icon/linkedin.svg"
