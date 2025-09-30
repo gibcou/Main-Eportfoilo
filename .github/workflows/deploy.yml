@@ -39,6 +39,9 @@ jobs:
     - name: Build
       run: npm run build
       
+    - name: Remove root index.html to prevent GitHub Pages conflict
+      run: rm -f index.html
+      
     - name: Setup Pages
       uses: actions/configure-pages@v4
       
