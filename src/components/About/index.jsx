@@ -72,10 +72,6 @@ export default function About() {
           <h1 draggable="false">
             <InteractiveMarquee wheelFactor={0} speed={1.3}>
               <span>ABOUT Gibson Coutley</span>
-              <span>ABOUT Gibson Coutley</span>
-              <span>ABOUT Gibson Coutley</span>
-              <span>ABOUT Gibson Coutley</span>
-              <span>ABOUT Gibson Coutley</span>
             </InteractiveMarquee>
           </h1>
         </motion.div>

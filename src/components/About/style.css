@@ -18,7 +18,7 @@
     "bio bio bio bio . ."
     ". . title . detail detail"
     "marquee marquee marquee marquee marquee marquee";
-  row-gap: 30px;
+  row-gap: 60px; /* Increased from 30px to provide more spacing */
 }
 
 .about--grid .about--bio {
@@ -51,19 +51,28 @@
 
 .about--grid .about--marquee {
   grid-area: marquee;
-  overflow: visible;
-  min-height: fit-content;
+  overflow: hidden;
+  height: 120px; /* Optimized height for clean appearance */
+  margin-top: 80px; /* Increased margin for better separation */
+  padding: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .about--grid .about--marquee h1 {
   color: #cbd0d3;
-  font-size: max(80px, 10vw);
+  font-size: max(70px, 8vw); /* Slightly reduced for better fit */
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 200px */
-  letter-spacing: -8px;
+  line-height: 100%;
+  letter-spacing: -10px;
   text-transform: uppercase;
   white-space: nowrap;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .about--grid .about--marquee h1 span {
@@ -81,7 +90,7 @@
       "bio . . ."
       ". . title detail"
       "marquee marquee marquee marquee";
-    row-gap: 20px;
+    row-gap: 30px;
   }
 }
 
