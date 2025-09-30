@@ -18,7 +18,7 @@
     "bio bio bio bio . ."
     ". . title . detail detail"
     "marquee marquee marquee marquee marquee marquee";
-  row-gap: 60px; /* Increased from 30px to provide more spacing */
+  row-gap: 40px; /* Reduced to prevent marquee from being pushed too low */
 }
 
 .about--grid .about--bio {
@@ -53,7 +53,7 @@
   grid-area: marquee;
   overflow: hidden;
   height: 120px; /* Optimized height for clean appearance */
-  margin-top: 80px; /* Increased margin for better separation */
+  margin-top: 20px; /* Reduced margin to keep marquee visible */
   padding: 0;
   display: flex;
   align-items: center;
