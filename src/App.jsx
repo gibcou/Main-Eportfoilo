@@ -1,5 +1,6 @@
 import "./App.css"
 import { useEffect } from "react"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import MouseFollower from "./components/MouseFollower"
 import Header from "./components/Header"
 import About from "./components/About"
@@ -7,8 +8,9 @@ import TechStack from "./components/TechStack"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
 import Footer from "./components/Footer"
+import ResumePage from "./components/ResumePage"
 
-function App() {
+function HomePage() {
   async function initLocomotiveScroll() {
     const LocomotiveScroll = (await import("locomotive-scroll")).default
     new LocomotiveScroll()
@@ -28,6 +30,17 @@ function App() {
       <Resume />
       <Footer />
     </main>
+  )
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/resume" element={<ResumePage />} />
+      </Routes>
+    </Router>
   )
 }
 

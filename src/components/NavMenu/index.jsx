@@ -22,6 +22,8 @@ export default function NavMenu({ isVisible, toggleFunc }) {
     },
     {
       text: "resume",
+      isExternal: true,
+      href: "/resume"
     },
     {
       text: "contact",
@@ -35,7 +37,12 @@ export default function NavMenu({ isVisible, toggleFunc }) {
           <motion.div className="nav--menu" initial="initial" animate="animate" exit="exit" transition={{ duration: 1 }} variants={translateVariants}>
             <BackgroundLines />
             {menuItemsArr.map((item, i) => (
-              <a className="nav--link" href={`#${item.text}`} key={item} onClick={toggleFunc}>
+              <a 
+                className="nav--link" 
+                href={item.isExternal ? item.href : `#${item.text}`} 
+                key={item.text} 
+                onClick={toggleFunc}
+              >
                 <ScrambleText shuffle delay={(i + 1) / 2}>
                   {item.text}
                 </ScrambleText>

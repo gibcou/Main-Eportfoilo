@@ -1,0 +1,160 @@
+.resume-page {
+  min-height: 100vh;
+  padding: 60px 102px;
+  background-color: var(--dark);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.resume-page--header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 60px 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  background: linear-gradient(180deg, var(--dark) 0%, transparent 100%);
+}
+
+.resume-page--header h1 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1.28px;
+  text-transform: uppercase;
+}
+
+.back-button {
+  color: inherit;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  text-decoration: none;
+}
+
+.resume-page--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 120px;
+  max-width: 100%;
+}
+
+.resume-page--image-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  background: transparent;
+  padding: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.resume-page--image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+
+.resume-page--actions {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume-page--actions a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume-page--actions a:hover {
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1500px) {
+  .resume-page {
+    padding: 40px 60px;
+  }
+  
+  .resume-page--header {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .resume-page {
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .resume-page--header {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .resume-page--header h1 {
+    font-size: 24px;
+  }
+  
+  .resume-page--content {
+    margin-top: 140px;
+  }
+  
+  .resume-page--image-container {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+  }
+  
+  .resume-page--actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-page {
+    padding: 15px;
+  }
+  
+  .resume-page--header {
+    padding: 15px;
+  }
+  
+  .resume-page--header h1 {
+    font-size: 20px;
+  }
+  
+  .resume-page--content {
+    margin-top: 120px;
+  }
+  
+  .resume-page--image-container {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+  }
+}
