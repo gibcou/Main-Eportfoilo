@@ -71,6 +71,19 @@ export default function ResumePage() {
         </Link>
       </motion.div>
 
+      {/* Resume title */}
+      <motion.div 
+        initial="hidden" 
+        animate="visible" 
+        variants={blurVariants} 
+        transition={{ duration: 1, delay: 0.5 }} 
+        className="resume-page--title"
+      >
+        <h1>
+          <ScrambleText delay={0.5}>MY RESUME</ScrambleText>
+        </h1>
+      </motion.div>
+
       {/* Resume content */}
       <motion.div 
         initial="hidden" 

@@ -15,7 +15,7 @@
 }
 
 .scrambleText > span:not(.scrambleText--overlay) {
-  opacity: 0;
+  opacity: 1;
   display: inline-flex;
 }
 .scrambleText .scrambleText--overlay {

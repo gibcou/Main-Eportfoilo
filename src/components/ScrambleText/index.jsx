@@ -16,6 +16,13 @@ const ScrambleText = ({ children, delay, shuffle = false }) => {
 
   const handleComplete = () => {
     stopScramble()
+    // Hide the overlay after animation completes
+    setTimeout(() => {
+      const overlayElement = document.querySelector('.scrambleText--overlay')
+      if (overlayElement) {
+        overlayElement.style.opacity = '0'
+      }
+    }, 100)
   }
 
   const scramble = () => {
