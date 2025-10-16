@@ -158,3 +158,35 @@
     gap: 30px;
   }
 }
+
+/* Reduce fixed widths and prevent overflow on small screens */
+@media (max-width: 700px) {
+  .resume--grid--detail--data {
+    gap: 20px;
+  }
+  .resume--grid--detail--data--skills .double {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .resume--grid--detail--pic {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume--grid--detail--pic {
+    width: 60px;
+    height: 60px;
+  }
+  .resume--grid--detail--data h2 {
+    font-size: 24px;
+  }
+  .resume--grid h4 {
+    font-size: 14px;
+  }
+  .resume--grid ul li,
+  .resume--grid ul li * {
+    font-size: 13px;
+  }
+}

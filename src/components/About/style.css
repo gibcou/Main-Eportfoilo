@@ -174,3 +174,10 @@
     border-radius: 8px;
   }
 }
+
+/* Interactive Marquee: allow wrapping on small screens to prevent overflow */
+@media (max-width: 700px) {
+  .about--grid .about--marquee h1 {
+    white-space: normal;
+  }
+}

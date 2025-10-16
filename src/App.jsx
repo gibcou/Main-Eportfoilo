@@ -17,7 +17,9 @@ function HomePage() {
   }
 
   useEffect(() => {
-    initLocomotiveScroll()
+    if (typeof window !== "undefined" && window.innerWidth >= 768) {
+      initLocomotiveScroll()
+    }
   }, [])
 
   return (

@@ -134,3 +134,38 @@ main > * {
     min-width: 44px;
   }
 }
+
+/* Mobile-first fixes to prevent overflow and improve readability */
+.theme--text,
+.theme--text--dark,
+.theme--detail,
+.theme--detail--dark {
+  white-space: normal;
+}
+
+/* Header adjustments: ensure name and video fit on small screens */
+@media (max-width: 700px) {
+  .header--name {
+    word-break: break-word;
+  }
+}
+
+/* Projects: allow heading to wrap and remove enforced nowrap */
+.projects--grid--content--heading h2 {
+  white-space: normal;
+}
+
+/* Resume: allow headings and skill items to wrap */
+.resume--grid h4,
+.resume--grid--detail--data h2,
+.resume--grid--detail--data--skills li {
+  white-space: normal;
+}
+
+/* InteractiveMarquee: constrain font size on small screens */
+@media (max-width: 480px) {
+  .about--grid .about--marquee h1 {
+    font-size: 10vw;
+    letter-spacing: -2px;
+  }
+}
